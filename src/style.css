@@ -13,6 +13,7 @@ h1 {
 ul {
   margin: 0;
   padding: 0;
+  padding-bottom: 6px;
 }
 
 li {
@@ -62,4 +63,7 @@ li::first-letter {
 }
 .overview {
   margin-bottom: 20px;
+}
+.forecast {
+  padding-top: 10px;
 }
