@@ -4,6 +4,10 @@ function displayTemperature(response) {
   let cityElement = document.querySelector("#city");
   let descriptionElement = document.querySelector("#description");
   let humidityElement = document.querySelector("#humidity");
+  let feelslikeElement = document.querySelector("#feels-like");
+  let windspeedElement = document.querySelector("#windspeed");
+  windspeedElement.innerHTML = Math.round(response.data.wind.speed);
+  feelslikeElement.innerHTML = response.data.temperature.feels_like;
   humidityElement.innerHTML = response.data.temperature.humidity;
   descriptionElement.innerHTML = response.data.condition.description;
   cityElement.innerHTML = response.data.city;
