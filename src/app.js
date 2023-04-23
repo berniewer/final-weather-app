@@ -40,6 +40,6 @@ function displayTemperature(response) {
 }
 
 let apiKey = `aa400c4b71d997bat0f9483a58o681cf`;
-let apiUrl = `https://api.shecodes.io/weather/v1/current?query=Munich&key=${apiKey}&units=metric`;
+let apiUrl = `https://api.shecodes.io/weather/v1/current?query=Dublin&key=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
