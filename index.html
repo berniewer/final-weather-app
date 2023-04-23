@@ -14,58 +14,68 @@
 
 <body>
     <div class="container">
-        <div class="weather-app">
-            <h1>
-                Munich
-            </h1>
-            <ul>
-                <li>
-                    date and time
-                </li>
-                <li>
-                    clear sky
-                </li>
-            </ul>
-            <div class="row ">
-                <div class="col-6">
-                    <img src="/src/sun.jpg" alt="sun icon"> 12°C | °F
-                </div>
-                <div class="col-6">
+        <div class="weather-app-wrapper">
+            <div class="weather-app">
+                <div class="overview">
+
+                    <h1>
+                        Munich
+                    </h1>
                     <ul>
                         <li>
-                            Precipitation: 0%
+                            date and time
                         </li>
                         <li>
-                            Humidity: 50%
-                        </li>
-                        <li>
-                            Wind: 2km/h
+                            clear sky
                         </li>
                     </ul>
                 </div>
-            </div>
+                <div class="row ">
+                    <div class="col-6">
+                        <div class="d-flex weather-temperature">
+                            <img src="/src/sun.jpg" alt="sun" id="icon">
+                        </div>
+                        <strong id="temperature"> 12
+                        </strong>
+                        <span class="units">°C | <a href="">°F</a></span>
+                    </div>
+                    <div class="col-6">
+                        <ul>
+                            <li>
+                                Precipitation: 0%
+                            </li>
+                            <li>
+                                Humidity: 50%
+                            </li>
+                            <li>
+                                Wind: 2km/h
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
 
-            <div class="row align-items-center">
-                <div class="col">
-                    Morning
+                <div class="row align-items-center">
+                    <div class="col">
+                        Morning
+                    </div>
+                    <div class="col">
+                        Midday
+                    </div>
+                    <div class="col">
+                        Evening
+                    </div>
+                    <div class="col">
+                        Night
+                    </div>
                 </div>
-                <div class="col">
-                    Midday
-                </div>
-                <div class="col">
-                    Evening
-                </div>
-                <div class="col">
-                    Night
-                </div>
+
             </div>
             <small>
                 <a href="https://github.com/berniewer/final-weather-app.git"> Open source Code </a>
                 by Bernadette Werner
             </small>
         </div>
-
     </div>
     </div>
 
