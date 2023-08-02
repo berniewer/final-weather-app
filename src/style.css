@@ -91,7 +91,12 @@ li::first-letter {
 
 #submit-btn:hover {
   background-color: #6ca4f785;
+  border-color: #6ca4f785;
   color: #fff;
+}
+#submit-btn:active {
+  transition: all 200ms ease;
+  box-shadow: none;
 }
 
 .weather-app ::placeholder {
@@ -116,4 +121,7 @@ li::first-letter {
 
 .weather-forecast-temperatures-min {
   opacity: 0.7;
+}
+#city-input {
+  box-shadow: 2px 2px 4px #6ca4f7;
 }
