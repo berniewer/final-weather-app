@@ -22,7 +22,7 @@
                             <input type="search" class="form-control" id="city-input" placeholder="Type a city here..">
                         </div>
                         <div class="col-2">
-                            <input type="submit" value="Search" class="btn btn-primary">
+                            <input type="submit" value="Search" class="btn btn-primary" id="submit-btn">
                         </div>
                     </div>
                 </form>
@@ -42,7 +42,7 @@
                         <div class="d-flex weather-temperature">
                             <img src="" alt="sun" id="icon">
                             <strong id="temperature"></strong>
-                            <span class="units"> <a class="active">°C</a> </span>
+                            <span class="units"> <a class="active"> °C</a> </span>
                         </div>
                     </div>
                     <div class="col-6">
@@ -61,19 +61,16 @@
                 </div>
 
                 <div class="weather-forecast" id="forecast">
-
                 </div>
             </div>
-            <small>
+            <small class="source-link" id="git">
                 <a href="https://github.com/berniewer/final-weather-app.git"> Open source Code </a>
                 by Bernadette Werner
             </small>
         </div>
     </div>
-    </div>
 
 
-    </div>
     <script src="src/app.js">
 
     </script>
